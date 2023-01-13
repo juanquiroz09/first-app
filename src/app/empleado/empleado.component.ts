@@ -17,6 +17,13 @@ export class EmpleadoComponent implements OnInit {
     return this.edad;
   }
   */
+habilitacionCuadro=false;
+
+userLogin=false;
+
+getUserLogin(){
+  this.userLogin=false;
+}
  llamaEmpresa(value: String){
 
  }
