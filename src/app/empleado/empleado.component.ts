@@ -11,7 +11,7 @@ export class EmpleadoComponent implements OnInit {
   nombre = "Juan";
   apellido = "Quiroz";
   edad = 8;
-  //empresa = "Píldoras Informáticas"
+  empresa = "google";
   /*
   getEdad(){
     return this.edad;
@@ -36,6 +36,7 @@ setUserLogin(event: Event){
  llamaEmpresa(value: String){
 
  }
+
   constructor() {
 
   }
